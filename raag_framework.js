@@ -170,7 +170,7 @@ function playNotation(notationArray,selectedLanguage,tempoGiven,taal) {
             ////playing the swar with proper octave attached to it    
              if(noteArray.length === 2) {
                 var delayAdd = tempo * noteArray[1] - tempo;
-                /*console.log(delayAdd," --- ",delayTime);
+                console.log(delayAdd," --- ",delayTime);
                 console.log('if state - '+assignedOctave[0],delayTime);
                 
                 playSwar(attachOctaveSymbol(swar,assignedOctave[1]),delayTime,stoptime + delayAdd);    
@@ -315,5 +315,3 @@ function genFreqSwarGurmukhi(input) {
         break;    
     }
 }
-
-                            
